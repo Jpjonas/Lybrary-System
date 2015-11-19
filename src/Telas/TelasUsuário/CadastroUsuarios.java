@@ -89,6 +89,7 @@ public class CadastroUsuarios extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
             MensagemUsuarioSalvo telaMensagemSalvo = new MensagemUsuarioSalvo();
+            this.dispose();
             telaMensagemSalvo.show();
     }//GEN-LAST:event_jButton1ActionPerformed
 
